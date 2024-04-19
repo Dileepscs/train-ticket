@@ -1,0 +1,15 @@
+.row{
+    margin:10px;
+}
+    .form-group.col-md-2 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .form-select {
+        margin-bottom: 0; /* To override default margin */
+    }
+
+    .form-group.col-md-2 input[type="submit"] {
+        width: 100%; /* Make the button fill its container */
+    }
